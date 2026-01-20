@@ -64,7 +64,7 @@ function initCastSystem() {
 
 function renderCastDetail(container, data) {
     container.innerHTML = `
-        <div class="detail-image-section">
+        <div class="detail-image-section" style="--bg-image: url('${data.imageFull}')">
             <img src="${data.imageFull}" alt="${data.name} Full Body" class="detail-image">
         </div>
         <div class="detail-info-section glass-panel">
