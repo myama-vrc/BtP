@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cast Detail | Behind THE Party</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Shippori+Mincho:wght@400;600&family=Zen+Old+Mincho:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .detail-main {
+            padding-top: 100px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="particles" id="particles"></div>
+    </div>
+
+    <header class="site-header">
+        <div class="dev-warning">開発用テストページです</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">TOP</a></li>
+                <li><a href="index.html#cast">CAST LIST</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="detail-main">
+        <div class="container">
+            <div id="cast-detail-container" class="cast-detail-grid fade-in">
+                <!-- Content will be injected by script.js -->
+                <p>Loading...</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <p class="copyright">&copy; Behind THE Party. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
