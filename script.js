@@ -41,7 +41,7 @@ const CAST_DATA = {
         birthday: "01/01",
         hobbies: "三点トラッキング",
         skills: "三点倒立",
-        voiceSample: "assets/voices/2_23_AM_2.mp3",
+        voiceSample: "assets/voices/xxx.mp3",
         twitterUrl: "https://twitter.com/party_in_VRC"
     }
 };
@@ -121,3 +121,4 @@ function createParticles() {
         particlesContainer.appendChild(particle);
     }
 }
+
